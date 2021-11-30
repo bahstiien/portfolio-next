@@ -10,7 +10,6 @@ const Header = () => {
         <li className="pl-4">
           <Link href="/project"> Mes réalisations </Link>
         </li>
-
         <li className="pl-4">
           <Link href="/contact"> Me contacter </Link>
         </li>
