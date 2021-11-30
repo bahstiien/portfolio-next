@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
-      <Layout name="Welcome">
+      <Layout name="Home">
         <h1 className="text-center text-gray-600 text-2xl p-10">
           Bienvenue sur mon portfolio
         </h1>

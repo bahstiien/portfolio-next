@@ -14,7 +14,7 @@ const contact = () => {
   };
 
   return (
-    <Layout name="A bientôt">
+    <Layout name="Contact">
       <h1 className="text-2xl text-center">Contact</h1>
       <form className="p-4 m-2">
         <div>
