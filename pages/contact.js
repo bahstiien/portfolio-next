@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import axios from "axios";
 
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
@@ -6,11 +7,17 @@ import Footer from "../components/Footer";
 const contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [inputValue, setInputValue] = useState("");
 
   const handleSubmit = () => {
     event.preventDefault();
     console.log(email);
     console.log(message);
+
+    // ------------------APPEL API
+    axios.post(`http://localhost:3000/api/contactRequests`).then((res) => {
+      alert("Merci, vous serez recontacté d’ici peu");
+    });
   };
 
   return (
