@@ -1,7 +1,12 @@
+import Layout from "../components/Layout";
+import Footer from "../components/Footer";
+
 const contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <Layout name="A bientôt">
+        <h1>Contact</h1>
+      </Layout>
     </div>
   );
 };

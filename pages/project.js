@@ -1,9 +1,12 @@
-import React from "react";
+import Footer from "../components/Footer";
+import Layout from "../components/Layout";
 
 const project = () => {
   return (
     <div>
-      <h1> Mes projets</h1>
+      <Layout name="Ceci sont mes projets">
+        <h1> Mes réalisations</h1>
+      </Layout>
     </div>
   );
 };
