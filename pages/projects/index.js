@@ -1,6 +1,5 @@
-import Footer from "../components/Footer";
-import Layout from "../components/Layout";
-import { getProjects } from "../Models/projects";
+import Layout from "../../components/Layout";
+import { getProjects } from "../../Models/projects";
 import Image from "next/image";
 
 const projects = ({ projects }) => {

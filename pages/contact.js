@@ -34,8 +34,7 @@ const contact = () => {
         (error) => {
           console.log(error.text);
         }
-      )
-      .finally(() => setProcessing(false));
+      );
 
     e.target.reset();
   }

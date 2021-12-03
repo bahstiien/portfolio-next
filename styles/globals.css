@@ -24,3 +24,7 @@ p {
   text-align: center;
   font-style: italic;
 }
+
+.bg {
+  background-color: red;
+}

@@ -5,9 +5,9 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg">
       <Layout name="Home">
-        <h1 className="font-serif text-center text-gray-600 text-2xl p-10">
+        <h1 className="title m-9 font-serif text-center text-gray-600 text-2xl p-10">
           Bienvenue sur mon portfolio
         </h1>
         <Image src={ImageBg} alt="My desk" layout="responsive" />
